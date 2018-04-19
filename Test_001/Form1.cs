@@ -49,15 +49,12 @@ namespace Test_001
         {
             InitializeComponent();
             InitializeGraphics();
-            
         }
 
         private void InitializeGraphics()
         {
             //====================BG  ======================
             this.BackColor = bgColor;
-            
-
             //============CPU Temp Chart======================
             label_CPU_Temp.ForeColor = areaColor;
             
